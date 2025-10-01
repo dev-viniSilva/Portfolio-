@@ -51,13 +51,13 @@ color: white
     overflow: hidden;
   border-right: 2px solid #630707;
   white-space: nowrap;
-  width: 21ch; /* number of characters */
+  width: 15ch; /* number of characters */
   animation: typing 4s steps(25), blink 0.5s step-end infinite alternate;
 }
 
 @keyframes typing {
      from { width: 0; }
-  to { width: 21ch; }
+  to { width: 15ch; }
 
 }
 
