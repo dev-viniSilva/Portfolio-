@@ -1,0 +1,66 @@
+
+.custom-background {
+    background-color:#10111a;
+}
+
+.name-text {
+font-family: "Viga", sans-serif;
+font-size: 60px;
+color: white
+
+}
+
+.name-paragraph {
+    color: #630707;
+    font-family:"Viga", sans-serif;
+}
+
+.red-text {
+    color: #630707;
+}
+
+/* Whole accordion item */
+.accordion-item {
+  background-color: #630707; /* light gray */
+}
+
+/* Accordion header button (when open) */
+.accordion-button {
+  background-color: #10111a; /* bootstrap blue */
+  color: #630707; /* text color */
+}
+
+/* Accordion header button (when collapsed) */
+.accordion-button.collapsed {
+  background-color: #000000; /* gray */
+  color: #630707;
+  
+}
+
+/* Accordion body */
+.accordion-body {
+  background-color: #10111a; /* lighter gray */
+  color: white;
+}
+
+.strong-accordion {
+    color: #630707;
+}
+
+.typing {
+    overflow: hidden;
+  border-right: 2px solid #630707;
+  white-space: nowrap;
+  width: 21ch; /* number of characters */
+  animation: typing 4s steps(25), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+     from { width: 0; }
+  to { width: 21ch; }
+
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
