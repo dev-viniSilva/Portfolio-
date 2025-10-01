@@ -1,3 +1,7 @@
+/* Evita scroll horizontal */
+body, html {
+  overflow-x: hidden;
+}
 
 .custom-background {
     background-color:#10111a;
@@ -5,9 +9,9 @@
 
 .name-text {
 font-family: "Viga", sans-serif;
-font-size: 60px;
-color: white
-
+font-size: 45px;
+color: white;
+max-width: 100%;
 }
 
 .name-paragraph {
@@ -63,4 +67,10 @@ color: white
 
 @keyframes blink {
   50% { border-color: transparent; }
+}
+
+#projects-section img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
