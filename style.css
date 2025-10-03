@@ -56,7 +56,7 @@ max-width: 100%;
   border-right: 2px solid #630707;
   white-space: nowrap;
   width: 9ch; /* number of characters */
-  animation: typing 2s steps(200), blink 0.5s step-end infinite alternate;
+  animation: typing 2s steps(50), blink 0.5s step-end infinite alternate;
 }
 
 @keyframes typing {
