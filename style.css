@@ -59,6 +59,34 @@ max-width: 100%;
   animation: typing 2s steps(50), blink 0.5s step-end infinite alternate;
 }
 
+.li-skills {
+    border: 3px solid white;
+    width: 22em;
+    border-radius: 12px;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    gap: 0.8em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: "Viga";
+    transition: all 0.6s ease;
+}
+
+
+
+.li-skills:hover {
+    transform: scale(1.1);
+}
+
+
+.icon-card {
+    width: 90px;
+}
+
 @keyframes typing {
      from { width: 0; }
   to { width: 9ch; }
