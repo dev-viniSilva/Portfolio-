@@ -4,93 +4,99 @@ body, html {
 }
 
 .custom-background {
-    background-color:#10111a;
+  background-color: #0f0f0f;
 }
 
 .name-text {
-font-family: "Viga", sans-serif;
-font-size: 45px;
-color: white;
-max-width: 100%;
+  font-family: "Viga", sans-serif;
+  font-size: 45px;
+  color: #F5F5F5;
+  max-width: 100%;
 }
 
 .name-paragraph {
-    color: #630707;
-    font-family:"Viga", sans-serif;
+  color: #1E3A8A;
+  font-family: "Viga", sans-serif;
 }
 
 .red-text {
-    color: #630707;
+  color: #274C8C;
 }
-
 /* Whole accordion item */
 .accordion-item {
-  background-color: #630707; /* light gray */
+  background-color: #1A1A1A; /* dark card background */
+  border: 1px solid #222; /* subtle border for separation */
+  border-radius: 8px; /* soft corners */
+  overflow: hidden;
 }
 
 /* Accordion header button (when open) */
 .accordion-button {
-  background-color: #10111a; /* bootstrap blue */
-  color: #630707; /* text color */
+  background-color: #111827; /* very dark blue/gray */
+  color: #1E3A8A; /* main blue accent */
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* Accordion header button (when collapsed) */
 .accordion-button.collapsed {
-  background-color: #000000; /* gray */
-  color: #630707;
-  
+  background-color: #0F172A; /* slightly lighter dark tone */
+  color: #1E3A8A;
 }
 
 /* Accordion body */
 .accordion-body {
-  background-color: #10111a; /* lighter gray */
-  color: white;
+  background-color: #1E293B; /* dark slate-blue for smooth contrast */
+  color: #E5E7EB; /* soft white text for readability */
+  padding: 1rem 1.25rem;
+  border-top: 1px solid #222; /* subtle separation from header */
 }
 
+/* Strong accent inside accordion body */
 .strong-accordion {
-    color: #630707;
+  color: #3B82F6; /* slightly brighter blue for emphasis */
+  font-weight: 600;
 }
+
 
 .typing {
-    overflow: hidden;
-  border-right: 2px solid #630707;
+  overflow: hidden;
+  border-right: 2px solid #1E3A8A;
   white-space: nowrap;
-  width: 9ch; /* number of characters */
+  width: 9ch;
   animation: typing 2s steps(50), blink 0.5s step-end infinite alternate;
 }
 
 .li-skills {
-    border: 3px solid white;
-    width: 22em;
-    border-radius: 12px;
-    padding: 1em;
-    align-items: center;
-    text-align: center;
-    gap: 0.8em;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-weight: 700;
-    font-size: 1em;
-    font-family: "Viga";
-    transition: all 0.6s ease;
+  border: 3px solid #333;
+  width: 22em;
+  border-radius: 12px;
+  padding: 1em;
+  align-items: center;
+  text-align: center;
+  gap: 0.8em;
+  display: flex;
+  flex-direction: column;
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: "Viga";
+  transition: all 0.6s ease;
+  background-color: #1A1A1A;
 }
-
-
 
 .li-skills:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+  border-color: #1E3A8A;
 }
 
-
 .icon-card {
-    width: 90px;
+  width: 90px;
 }
 
 @keyframes typing {
-     from { width: 0; }
+  from { width: 0; }
   to { width: 9ch; }
-
 }
 
 @keyframes blink {
@@ -98,7 +104,8 @@ max-width: 100%;
 }
 
 #projects-section img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
+
