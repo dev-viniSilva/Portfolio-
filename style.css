@@ -19,42 +19,40 @@ body, html {
   font-family: "Viga", sans-serif;
 }
 
-.red-text {
-  color: #274C8C;
-}
+
 /* Whole accordion item */
 .accordion-item {
-  background-color: #1A1A1A; /* dark card background */
-  border: 1px solid #222; /* subtle border for separation */
-  border-radius: 8px; /* soft corners */
+  background-color: #1A1A1A; 
+  border: 1px solid #222; 
+  border-radius: 8px;
   overflow: hidden;
 }
 
-/* Accordion header button (when open) */
+
 .accordion-button {
-  background-color: #111827; /* very dark blue/gray */
-  color: #1E3A8A; /* main blue accent */
+  background-color: #111827;
+  color: #1E3A8A; 
   font-weight: 600;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Accordion header button (when collapsed) */
+
 .accordion-button.collapsed {
-  background-color: #0F172A; /* slightly lighter dark tone */
+  background-color: #0F172A;
   color: #1E3A8A;
 }
 
-/* Accordion body */
+
 .accordion-body {
-  background-color: #1E293B; /* dark slate-blue for smooth contrast */
-  color: #E5E7EB; /* soft white text for readability */
+  background-color: #1E293B;
+  color: #E5E7EB; 
   padding: 1rem 1.25rem;
-  border-top: 1px solid #222; /* subtle separation from header */
+  border-top: 1px solid #222; 
 }
 
-/* Strong accent inside accordion body */
+
 .strong-accordion {
-  color: #3B82F6; /* slightly brighter blue for emphasis */
+  color: #3B82F6;
   font-weight: 600;
 }
 
